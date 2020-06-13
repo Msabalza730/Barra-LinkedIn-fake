@@ -1,0 +1,104 @@
+*{margin: 0;
+  padding: 0;
+}
+
+header{
+    background-color: #283e4a;
+    height: 52px;
+    padding: 0px 20px 0px 20px;  /*top right buttom left*/
+}    
+
+.conten-header{
+  display: inline-flex;
+  width: 100%;
+}
+
+.left-header{
+  display: inline-flex;
+  padding: 7px 0px 7px 0px;
+  width: 35%;
+
+}
+
+.right-header{
+ width: 65%;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+
+.txt-search{
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 4px;
+  border: 0 none;
+  width: 300px;
+  margin-top: 6px;
+  padding: 0px 10px;
+  
+}
+
+nav{
+  display: inline-flex;
+}
+
+.menu{
+  order: 1; 
+}
+
+.menu > li{
+  display: inline-block;
+  padding: 6px;
+}
+.menu > li>a{
+  display: inline;
+  color: white;
+  text-decoration: none; /*quitar la linea de hiperlink*/
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 12px;
+}
+
+.menu > li >label{
+  text-align: center;
+  font-size: 12 px;
+  margin-top: 7px;
+}
+
+.menu > li:last-child{
+  border-left: 1px solid #5c6f7c;
+}
+.icon{
+  text-align: center;
+  display: block;
+}
+
+.icon::before{
+  margin: 0;
+  text-align: center;
+}
+
+.try-txt{
+  order: 2;
+  color: #dccea4;
+  width: 120px;
+  font-size: 16px;
+  margin-left: 38px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.try-txt>label{
+  text-align: center;
+}
+
+.avatar{
+  width: 25px;
+}
+
+
+
